@@ -960,7 +960,10 @@ article:has(:hover, :focus) {
     }
     .sobreMi{
         text-align: left;
-        font-size: 0.95em;
+        font-size: 0.9em;
+        line-height: 1.6;
+        word-spacing: 0.05em;
+        hyphens: auto;
     }
 
     .timeline{
@@ -978,14 +981,19 @@ article:has(:hover, :focus) {
         padding: 1rem;
     }
     .evento-info h5 {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
     .evento-info p {
         font-size: 0.95rem;
     }
+    /* Ver Detalles proyectos */
+    .details{
+        font-size: 0.9rem;
+    }
     .descProyecto {
         font-size: 1.05rem;
     }
+
 }
 
 @media screen and (max-width: 540px) {
@@ -999,8 +1007,29 @@ article:has(:hover, :focus) {
     article{
         width: 100%;
     }
+    h3{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
     h4{
-        font-size: 2rem;
+        font-size: 1.85rem;
+    }
+    .evento-info h5 {
+        font-size: 0.9rem;
+    }
+    .evento-info p {
+        font-size: 0.85rem;
+    }
+    /* Ver Detalles proyectos */
+    .details{
+        font-size: 0.85rem;
+    }
+    .descProyecto {
+        font-size: 0.95rem;
+        hyphens: auto;
+    }
+    .tecnologias{
+        font-size: 1.1rem;
     }
 
 }
