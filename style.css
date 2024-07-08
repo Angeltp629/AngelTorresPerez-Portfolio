@@ -22,7 +22,8 @@ body {
     width: 100%;
     height: 100%;
     line-height: 1.6;
-    font-family: "Reddit Mono";
+    font-family: 'Reddit Mono', 'Inter';
+    visibility: hidden;
     background-color: #171717;
 }
 

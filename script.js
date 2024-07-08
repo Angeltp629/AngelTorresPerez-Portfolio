@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // Evitar problema FUOC (precarga de recursos indeseados)
+  document.fonts.ready.then(function() {
+    document.body.style.visibility = 'visible';
+  });
+
   const spans = document.querySelectorAll('.verDetalles');
   spans.forEach(function (span) {
     span.addEventListener('click', function () {
